@@ -20,6 +20,22 @@ raccourcis?)
 renvoyer à la ligne automatiquement au dessus de fusionner
 Tour de couleur autour des tableaux pour effacer le quadrillage et faire plus propre
 
+# VBA
+
+Mettre forcément les fenêtres Exécution/variables locales/exécution
+Debug.Print "Test " -> affiche qc dans la fenêtre exécution du VBA
+MsgBox "The contents of B2 have been deleted !"
+
+erreur  Utilisation du mot clé Me non valide : 
+J'ai créé un module 1 au lieu de mettre la macro dans workbook
+
+erreur '1004 ->variable non déclarée ? mal nommée
+
+enregistrer la macro rechercheV
+débugger
+mettre les espions
+Call pour appel de sous fonction
+
 ## formules 
 
 ### Dates
