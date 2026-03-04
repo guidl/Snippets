@@ -20,3 +20,7 @@ _TODO y a t-il une option pour compresser?_
 
 ## useful links
 https://www.pdflabs.com/docs/pdftk-man-page/#dest-operation
+
+#Ghostcript
+## Compression de taille car pdftk n'est pas toujours utile pour ce cas là
+ ```& "XXX\gsYYYY\bin\gswin64c.exe" -o "output.pdf" -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook "input.pdf"```
